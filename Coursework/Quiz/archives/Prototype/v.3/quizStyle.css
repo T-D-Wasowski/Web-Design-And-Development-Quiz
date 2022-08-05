@@ -1,0 +1,48 @@
+#introDiv {
+	/*When done, take common attributes and create class displayDiv*/
+	width:60%;
+	height: 60%; /*Doesn't do anything... */
+	margin-top: 5%; /*Might have logo above, stack underneath as neccessary... or logo on main page and seperate from div?*/
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCC; /* Adjust later */
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/* display:none; use this when switching states */
+
+
+}
+
+#introDiv img {
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+#questionDiv {
+	
+	width: 60%;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #AAA;
+	
+	display: none;
+	
+}
+
+#questionDiv img {
+	width: 100%
+}
+
+.ansBtn {
+	display: block;
+	width: 100%;
+	margin-top: 0;
+}
+
+#nextBtn {
+	display: none;
+}
+

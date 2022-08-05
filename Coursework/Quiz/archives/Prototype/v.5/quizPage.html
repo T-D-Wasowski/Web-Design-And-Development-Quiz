@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<meta name="description" content="Quiz Page">
+		<meta name="author" content="T. Dawid Wasowski">
+		
+		<title>Entertainment Quiz</title>
+		
+		<link rel="styleSheet" type="text/css" href="quizStyle.css">
+		
+		<script type="text/javascript" src="quizScript.js" defer></script> 
+		<!-- 'defer' allows the script to load in the header without interrupting html parse; executes on load.-->
+		
+	</head>
+	
+	<body>
+	
+		<div id="introDiv" class="displayDiv">
+			<h2>Quiz Title Message!</h2>
+			<p>Hello, here are the rules of the quiz. Think you know a lot about entertainment? Test your knowledge!</p>
+			
+			<img src="test.jpg" alt="Quiz intro image.">	
+
+			<!-- Used to be in a form but would reload on submit, if need form use function to prevent dfault -->
+			<input type="text" id="playerName" placeholder="Enter your name..."> <!-- Could use <br> to have btn below -->
+			<button id="startBtn" class="appBtn" type="button">Start Quiz</button>
+		</div>
+		
+		<div id="questionDiv" class="displayDiv">
+			<h2 id="question">How many is too many?</h2>
+			
+			<img src="test.jpg" alt="Question related image desc, diff for each image!">
+			
+			<div id="ansBtnGrp">
+				<button id="answerBtn1" class="ansBtn" type="button">Answer 1</button>
+				<button id="answerBtn2" class="ansBtn" type="button">Answer 2</button>
+				<button id="answerBtn3" class="ansBtn" type="button">Answer 3</button>
+				<button id="answerBtn4" class="ansBtn" type="button">Answer 4</button>
+			</div>
+			
+			<button id="nextBtn" class="appBtn" type="button">Next</button> <!-- Maybe place outside of this div! -->
+			
+			
+			
+		</div>
+		
+
+		
+		<div id="summaryDiv" class="displayDiv" type="button"></button>
+			
+		</div>
+		
+	</body>
+	
+</html>

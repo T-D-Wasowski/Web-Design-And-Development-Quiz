@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<meta name="description" content="Quiz Page">
+		<meta name="author" content="T. Dawid Wasowski">
+		
+		<title>Entertainment Quiz</title>
+		
+		<link rel="styleSheet" type="text/css" href="quizStyle.css">		
+		
+		<script type="text/javascript" src="quizScript.js" defer></script>
+
+	</head>
+
+	<body>
+
+		<!-- Intro Div -->
+		<div id="introDiv" class="displayDiv">
+		
+			<h1>Entertainment Quiz</h1>
+			<p>Consider yourself an adequately entertained individual? 
+				Take this entertainment quiz and find out! 
+				You have 5 minutes to answer all 10 questions.
+				Each correct question bags you 2 points, but each incorrect one will cost you 1.
+				Think you're up to the challenge? Hit 'Start Quiz' button to begin!
+			</p>
+			
+			<img id="introImg" src="images/intro.jpg" alt="Neon quiz time image.">
+			
+			<input type="text" id="playerName" placeholder="Enter your name here...">
+			<button id="startBtn" class="appBtn" type="button">Start Quiz</button>
+		
+		</div>
+		
+		<!-- Question Wrapper -->		
+		<div id="questionWrapper">
+		
+			<!-- Question Div -->	
+			<div id="questionDiv" class="displayDiv">
+		
+				<h1 id="question">Question?</h1>
+				
+				<img id="questionImg" src="images/test.jpg" alt="Question 1 image.">
+				
+				<div id="answerBtnGroup">
+					<button id="answerBtn1" class="ansBtn" type="button">Answer</button>
+					<button id="answerBtn2" class="ansBtn" type="button">Answer</button>
+					<button id="answerBtn3" class="ansBtn" type="button">Answer</button>
+					<button id="answerBtn4" class="ansBtn" type="button">Answer</button>
+				</div>
+			</div>
+			
+			<!-- Info Div -->			
+			<div id="infoDiv" class="displayDiv">
+			
+				<p id="questionTimer">05:00</p>	
+				
+				<p id="questionCount">1/10</p>
+				
+				<button id="nextBtn" class="appBtnDisabled" type="button">Next</button>
+				<button id="finishBtn" class="appBtnDisabled" type="button">Finish</button>
+				
+			</div>
+			
+		</div>
+		
+		<!-- Summary Div -->
+		<div id="summaryDiv" class="displayDiv">
+			<h1>Summary</h1>
+			
+			<p id="summaryAnswers"></p>
+			<p id="statistics"></p>
+		</div>
+		
+		<div id="footer">
+			<p><i>Follow this link for the <a href="../Editor Page/editorPage.html" target="_blank">Editor's Page</a></i></p>
+		<div>
+
+	</body>
+
+</html>
